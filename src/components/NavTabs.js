@@ -12,7 +12,7 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className="sticky-top bg-white">
       <header className="header" style={styles.headerStyle}>
         <img style={{
           resizeMode: 'left',
@@ -23,7 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         />
         WELCOME TO TWQUEEN'S PORTFOLIO
       </header>
-      <ul className="nav justify-content-center nav-pills" >
+      <ul className="nav justify-content-center nav-pills p-3" >
         <li className="nav-item">
           <a
             href="#home"
