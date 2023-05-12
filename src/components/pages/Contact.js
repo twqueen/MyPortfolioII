@@ -14,24 +14,25 @@ export default function Contact() {
 
 
   return (
-    <div className="containter mt-5">
-      <h1>Contact Me</h1>
-      <form className="form" onSubmit={handleSubmit(onSubmit)}>
-        <div className="mb-3">
-          <input type="text" placeholder="Name" {...register("name", { required: true })} />
-          {errors.name && <span>Invalid input</span>}
-        </div>
-        <div className="mb-3">
-          <input type="text" placeholder="Email" {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })} />
-          {errors.email && <span>Invalid email</span>}
-        </div>
-        <div className="mb-3">
-          <textarea placeholder="Message" {...register("message", { required: true })} />
-          {errors.message && <span>Invalid input</span>}
-        </div>
-        <button type="submit">Submit</button>
-        {/* <button type="submit" onClick={() => reset()}>Submit</button> */}
-      </form>
+    <div className="container mt-4">
+      <div className='row p-3'>
+        <h1 className='text-center col-12'>Contact Me</h1>
+        <form className="text-center col-12 p-5" onSubmit={handleSubmit(onSubmit)}>
+          <div className="mb-3 col">
+            <input className='form-control' type="text" placeholder="Name" {...register("name", { required: true })} />
+            {errors.name && <span>Invalid input</span>}
+          </div>
+          <div className="mb-3 col">
+            <input className='form-control' type="text" placeholder="Email" {...register("email", { required: true, pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i })} />
+            {errors.email && <span>Invalid email</span>}
+          </div>
+          <div className="mb-3 col">
+            <textarea className='form-control' placeholder="Message" {...register("message", { required: true })} />
+            {errors.message && <span>Invalid input</span>}
+          </div>
+          <button className='btn btn-outline-dark' type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 }
