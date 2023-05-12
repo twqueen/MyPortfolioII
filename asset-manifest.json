@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MyPortfolioII/static/css/main.0637a7b3.css",
+    "main.js": "/MyPortfolioII/static/js/main.3b6737a0.js",
+    "static/media/2022-12-18.png": "/MyPortfolioII/static/media/2022-12-18.fef5100daba56d173856.png",
+    "static/media/developerjobfinder.png": "/MyPortfolioII/static/media/developerjobfinder.88cef5ef16c1f3dfa53a.png",
+    "static/media/Musical_Chairs_SocialMedia.png": "/MyPortfolioII/static/media/Musical_Chairs_SocialMedia.f5784a7d93563e5b1276.png",
+    "static/media/WeatherDashboardScreenshot.png": "/MyPortfolioII/static/media/WeatherDashboardScreenshot.249ccb7a5962e80cffda.png",
+    "static/media/BasicQuiz.png": "/MyPortfolioII/static/media/BasicQuiz.4db67c21f7cb254916b8.png",
+    "static/media/M3-BrowserScreenshot.png": "/MyPortfolioII/static/media/M3-BrowserScreenshot.d188e250e4f9a5af3e15.png",
+    "static/media/NoteTaker.png": "/MyPortfolioII/static/media/NoteTaker.fa0ee57ddc64a5cdcc40.png",
+    "index.html": "/MyPortfolioII/index.html",
+    "main.0637a7b3.css.map": "/MyPortfolioII/static/css/main.0637a7b3.css.map",
+    "main.3b6737a0.js.map": "/MyPortfolioII/static/js/main.3b6737a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0637a7b3.css",
+    "static/js/main.3b6737a0.js"
+  ]
+}
