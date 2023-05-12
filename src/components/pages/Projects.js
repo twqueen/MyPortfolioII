@@ -4,7 +4,8 @@ import {
   faGithub,
   faChrome,
 } from "@fortawesome/free-brands-svg-icons";
-
+// this is to export onto Portolio for mapping out all the projects
+// all styling is included here
 export default function Projects(props) {
     return (
         <div className='container'>

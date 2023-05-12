@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Resume page with list of skills and downloadable resume
 export default function Resume() {
   return (
     <div className='container p-3'>

@@ -37,6 +37,7 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      {/* {Adding a footer with links} */}
       <footer style={{ background: 'black', }} className='footer mh-20 fixed-bottom text-center p-2'>
         <a href="https://github.com/twqueen" className="link-danger px-2">
           <FontAwesomeIcon icon={faGithub} size="2x" />

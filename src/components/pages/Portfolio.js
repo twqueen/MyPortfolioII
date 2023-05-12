@@ -1,6 +1,7 @@
 import React from 'react';
 import Projects from './Projects';
 
+// array for list of projects
 const projects = [
   {
     id: 1,
@@ -52,6 +53,7 @@ const projects = [
   },
 ];
 
+// rendering above array into template made in Projects
 export default function Portfolio() {
   return (
     <div className=''>

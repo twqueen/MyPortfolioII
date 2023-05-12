@@ -1,6 +1,7 @@
 import React from 'react';
 import image from '../images/2022-12-18.png';
 
+// Just the home page
 export default function Home() {
   return (
     <div className='container vh-100'>

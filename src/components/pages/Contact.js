@@ -1,6 +1,8 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 
+// using react-hook-form to develop the contact form
+// react-hook-form allows me to check validation without adding too much codes
 export default function Contact() {
   const { register, handleSubmit, formState: { errors } } = useForm({
     defaultValues: {

@@ -1,8 +1,13 @@
-.nav-pills .nav-link.active {
-    background-color: rgb(197, 136, 79);
-};
-
-.nav-link {
+/* needs to change out of bs default color */
+.nav-item {
     color: black;
-};
+}
 
+ul.nav li.nav-item a.nav-link.active {
+    background-color: rgb(197, 136, 79);
+    color: pink;
+}
+
+ul.nav li.nav-item a.nav-link {
+    color: black;
+}
