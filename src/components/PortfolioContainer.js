@@ -4,6 +4,13 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faGoogle,
+  faStackOverflow,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -30,6 +37,20 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
+      <footer style={{ background: 'black', }} className='footer mh-20 fixed-bottom text-center p-2'>
+        <a href="https://github.com/twqueen" className="link-danger px-2">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        <a href="https://google.com" className="link-danger px-2">
+          <FontAwesomeIcon icon={faGoogle} size="2x" />
+        </a>
+        <a href="https://stackoverflow.com/" className="link-danger px-2">
+          <FontAwesomeIcon icon={faStackOverflow} size="2x" />
+        </a>
+        <a href="https://www.linkedin.com/" className="link-danger px-2">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+      </footer>
     </div>
   );
 }

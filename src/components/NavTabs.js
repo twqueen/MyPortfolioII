@@ -1,22 +1,13 @@
 import React from 'react';
+import './NavTabs.css'
 
 const styles = {
   headerStyle: {
     textAlign: 'center',
     color: 'pink',
-    fontSize: 40,
-    fontWeight: 400,
-    textShadowColor: '#454545',
-    textShadowOffset: {
-      width: 100,
-      height: 100,
-    },
-    textShadowRadius: 100,
+    fontSize: '3rem',
+    fontWeight: 400,    
   },
-  navbarStyle: {
-    alignContents: 'flex-end',
-
-  }
 }
 
 function NavTabs({ currentPage, handlePageChange }) {
@@ -25,13 +16,14 @@ function NavTabs({ currentPage, handlePageChange }) {
       <header className="header" style={styles.headerStyle}>
         <img style={{
           resizeMode: 'left',
-          height: 200,
+          height: '10rem',
         }}
           src="https://cutewallpaper.org/27/cartoon-dog-gif-wallpaper/dog-cartoon-gifs-get-the-best-gif-on-giphy.gif" 
           alt="corgi waving hello gif"
-        /> WELCOME TO TWQUEEN'S PORTFOLIO
+        />
+        WELCOME TO TWQUEEN'S PORTFOLIO
       </header>
-      <ul className="nav" style={styles.navbarStyle}>
+      <ul className="nav justify-content-center nav-pills" >
         <li className="nav-item">
           <a
             href="#home"
