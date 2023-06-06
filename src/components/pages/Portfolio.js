@@ -37,11 +37,11 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Note Taker',
-    image: require('../images/NoteTaker.png'),
-    description: 'A browser app to save your notes.',
-    github: 'https://github.com/twqueen/M11-NoteTaker',
-    live: 'https://warm-depths-87466.herokuapp.com/',
+    title: 'Fit n Run Exercise Tracker',
+    image: require('../images/fitnrun-ss1.png'),
+    description: 'A exercise tracking app for your convenience',
+    github: 'https://github.com/TheRealGeneParmesan/Fit-N-Run',
+    live: 'https://fit-n-run.herokuapp.com/',
   },
   {
     id: 6,
